@@ -1,4 +1,5 @@
-# require-tag-name-and-value-chosen-from-set
+# Require Tag Name and Value From Set
+
 This custom Azure Policy will deny a user from creating a resource if it does not include a specified tag name and a value from a predetermined set of values. 
 
 When assigning this policy I used “Environment” for the tag name and chose all 3 options ([“Dev”, “Test”, “Prod”]) for possible values (when assigning the policy to a specified scope you can choose a subset or all of the values in the list of allowedValues that was specifie din the policy definition.
